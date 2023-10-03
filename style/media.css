@@ -269,6 +269,7 @@ padding: 10px 30px;
     background: #8484844D;
     padding: 8px 15px;
     align-items: center;
+    z-index: 1;
 }
 .menuu:focus~.nav_info{
     right: 0;
@@ -442,6 +443,7 @@ align-content: flex-start;
 }
 .section_text,.section_text1{
     font-size: 12px ;
+    max-width: 200px ;
 }
 .main_card{
     max-width: 140px ;
@@ -455,5 +457,9 @@ align-content: flex-start;
 .main_logo, .main_end {
     font-size: 18px;
     line-height: 120%;
+}
+.menu,.close{
+    max-width: 25px ;
+    height: 25px;
 }
 }
